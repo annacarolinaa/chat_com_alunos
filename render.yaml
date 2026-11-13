@@ -25,4 +25,6 @@ services:
       - key: LANGFUSE_HOST
         value: https://cloud.langfuse.com
       - key: MONGO_URL
+        sync: 
+      - key: BRAPI_TOKEN
         sync: false
